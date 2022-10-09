@@ -1,0 +1,233 @@
+
+
+
+.rapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+span div i body{
+    left: 0;
+    top: o;
+}
+ 
+ .setting{
+    font-size: 2em;
+    font-weight: bold;
+   
+ }
+
+ .delete1{
+
+    border-radius: 20px;
+    width: 700px;
+ }
+
+
+ .dels{
+    float: right;
+ }
+
+ .feeds{
+    float: right;
+   
+ }
+ .blacks{
+    float: right;
+   
+ }
+ .coms{
+    float: right;
+ }
+ .rems{
+    float: right;
+   
+ }
+ .upds{
+    float: right;
+   
+ }
+ .reqs{
+    float: right;
+   
+ }
+ .knws{
+    float: right;
+   
+ }
+ .frds{
+    float: right;
+   
+ }
+ .pols{
+    float: right;
+   
+ }
+ .pris{
+    float: right;
+   
+ }
+ .helps{
+    float: right;
+   
+ }
+ .signs{
+    float: right;
+ } 
+ 
+ body{
+    margin: 20px;
+    background-color: rgba(230, 237, 237,0.2);
+ }
+ .notify{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 80px; 
+ }
+ input{
+    color: rgba(4, 0, 242, 0.8);
+    border-radius: 10px;
+    border: none;
+    transition: 500ms all ease-in-out;
+ }
+ input:hover{
+    background-color:rgba(198, 243, 234, 0.8);
+    padding: 7px;
+ }
+ 
+
+ select{
+    
+    border-radius: 20px;
+    display: inline-block;
+    color: rgba(15, 11, 238, 0.5);
+    transition: 500ms all ease-in-out;
+ }
+ select:hover{
+    background-color:rgba(198, 243, 234, 0.8);
+    padding: 2px;
+ }
+ 
+ .content{
+    
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 700px;
+ }
+ .delete {
+   padding: 10px;
+  
+ }
+ .feedback {
+    padding: 10px;
+   
+  }
+  .blacklist {
+    padding: 10px;
+    
+  }
+  .comment {
+    padding: 10px;
+   
+  }
+  .reminder {
+    padding: 10px;
+    
+  }
+  .update {
+    padding: 10px;
+   
+  }
+  .request {
+    padding: 10px;
+    
+  }
+  .know {
+    padding: 10px;
+  
+  }
+  .friends {
+    padding: 10px;
+  
+  }
+  .policies {
+    padding: 10px;
+   
+  }
+  .privacy {
+    padding: 10px;
+  
+  }
+  .help {
+    padding: 10px;
+  }
+  .sign {
+    padding: 10px;
+  }
+  @media screen and ( max-width:960px ){
+    .delete1{
+        
+        width: 600px;
+     }
+
+     .content{
+       
+        width: 600px;
+     }
+  }
+  @media screen and ( max-width:860px ){
+    .delete1{
+        
+        width: 500px;
+     }
+
+     .content{
+       
+        width: 500px;
+     }
+  }
+  @media screen and ( max-width:760px ){
+    .delete1{
+        
+        width: 400px;
+     }
+     .setting{
+        font-size: 1.8em;
+         
+     }
+     
+     .notify{
+        font-size: 1.68em;
+         
+     }
+     .content{
+       
+        width: 400px;
+     }
+  }
+ 
+  @media screen and ( max-width:680px ){
+   
+
+    .rapper{
+        display: inline-block;
+        
+    }
+    .notify{
+        font-size: 1.8em;
+         
+     }
+     .content{
+        display: inline;
+    
+     }
+     .setting{
+        font-size: 1.8em;
+        padding-bottom: 10px;
+       
+     }
+ 
+  }
